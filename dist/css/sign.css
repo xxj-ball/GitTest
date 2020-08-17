@@ -1,0 +1,179 @@
+html, body, h3 {
+  margin: 0;
+  padding: 0; }
+
+input {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+.headWrap {
+  width: 100%;
+  height: 48px;
+  min-width: 1200px;
+  background: rgba(0, 0, 0, 0.05); }
+  .headWrap .head {
+    width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .headWrap .head .logo {
+      width: 108px;
+      padding-right: 20px;
+      border-right: 1px solid #999;
+      height: 24px;
+      margin-top: 12px;
+      float: left; }
+      .headWrap .head .logo span {
+        width: 108px;
+        height: 24px; }
+    .headWrap .head h3 {
+      color: #191919;
+      font-size: 16px;
+      font-weight: 700;
+      float: left;
+      margin-top: 14px;
+      margin-left: 15px; }
+
+.mainWrap {
+  width: 100%;
+  min-width: 1200px;
+  min-height: 500px; }
+  .mainWrap .main {
+    width: 1200px;
+    margin: 0 auto; }
+    .mainWrap .main .type {
+      width: 272px;
+      float: left;
+      margin-top: 40px;
+      height: 100px; }
+      .mainWrap .main .type div {
+        width: 272px;
+        height: 50px;
+        border-radius: 10px;
+        text-indent: 40px;
+        line-height: 50px;
+        cursor: pointer; }
+        .mainWrap .main .type div span {
+          margin-right: 10px; }
+      .mainWrap .main .type div:hover {
+        background: #9FCAE5; }
+      .mainWrap .main .type .show {
+        background: rgba(0, 0, 0, 0.05); }
+  .mainWrap .sign {
+    width: 960px;
+    margin: 0 auto;
+    min-height: 300px; }
+    .mainWrap .sign .cen {
+      width: 440px;
+      padding: 60px 260px 38px; }
+      .mainWrap .sign .cen .top {
+        width: 440px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 60px; }
+        .mainWrap .sign .cen .top h3 {
+          font-size: 32px;
+          color: #191919;
+          text-align: center; }
+        .mainWrap .sign .cen .top p {
+          font-size: 18px;
+          color: #191919;
+          margin-top: 8px; }
+          .mainWrap .sign .cen .top p a {
+            text-decoration: none;
+            color: #007dff; }
+    .mainWrap .sign .bt {
+      width: 440px; }
+      .mainWrap .sign .bt p {
+        width: 440px;
+        height: 48px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.05);
+        line-height: 48px; }
+        .mainWrap .sign .bt p select {
+          width: 80px;
+          float: right;
+          margin-right: 20px;
+          margin-top: 15px; }
+        .mainWrap .sign .bt p input {
+          width: 440px;
+          text-indent: 20px;
+          border: none;
+          color: #191919;
+          background: #eee;
+          border-radius: 10px;
+          height: 48px; }
+        .mainWrap .sign .bt p .ma {
+          width: 300px;
+          border-radius: 10px 0 0 10px; }
+          .mainWrap .sign .bt p .ma a {
+            text-decoration: none; }
+      .mainWrap .sign .bt .add {
+        text-indent: 20px; }
+        .mainWrap .sign .bt .add i {
+          float: right;
+          font-style: normal;
+          margin-right: 20px; }
+        .mainWrap .sign .bt .add em {
+          float: right;
+          font-style: normal;
+          margin-right: 20px; }
+      .mainWrap .sign .bt .chi {
+        width: 440px;
+        height: 48px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background: #F2F2F2;
+        line-height: 48px;
+        text-indent: 20px; }
+        .mainWrap .sign .bt .chi div {
+          width: 132px;
+          height: 48px;
+          line-height: 48px;
+          float: left; }
+        .mainWrap .sign .bt .chi .phone {
+          float: left;
+          width: 306px;
+          height: 48px;
+          text-indent: 20px;
+          border: none;
+          color: #191919;
+          background: #eee;
+          border-radius: 10px 0 0 10px; }
+      .mainWrap .sign .bt .zhu {
+        width: 310px;
+        height: 50px;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        margin-left: 75px;
+        margin-top: 50px; }
+        .mainWrap .sign .bt .zhu input {
+          width: 310px;
+          background: #9FCEFF;
+          color: #fff; }
+
+.bot {
+  margin-top: 60px;
+  width: 100%;
+  height: 110px;
+  background: rgba(0, 0, 0, 0.05); }
+  .bot div {
+    width: 606px;
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center; }
+    .bot div a {
+      font-size: 14px;
+      color: #000;
+      padding: 0 10px;
+      border-right: 1px solid #999; }
+    .bot div .last {
+      border: none; }
+    .bot div span {
+      margin-left: 45px;
+      color: #999; }
