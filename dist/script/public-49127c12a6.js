@@ -1,0 +1,1 @@
+"use strict";var sc=document.querySelector(".bottom .sc"),link=document.querySelectorAll(".bottom .link"),prev=document.querySelector(".bottom .btn-pre"),next=document.querySelector(".bottom .btn-next"),friend=document.querySelector(".bottom .friend");prev.onclick=function(){animate(friend,{scrollLeft:0})},next.onclick=function(){animate(friend,{scrollLeft:153})};
