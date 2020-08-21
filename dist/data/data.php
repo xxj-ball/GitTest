@@ -35,7 +35,7 @@ if($type==='add'){
     
 }
 if($type==='login'){
-    $login_sql="select * from db_user where user='$user' and pass='$pass'";
+    $login_sql="select * from db_user where (user='$user' or phone='$tel') and pass='$pass'";
     $login_res=mysqli_query($link,$login_sql);
     $login_arr=mysqli_fetch_all($login_res);
     if(count($login_arr)>0){
